@@ -19,3 +19,42 @@ models:
         tests:
           - unique
           - not_null
+
+  - name: merge_model
+    description: "Implementing DBT merge strategy"
+    columns:
+      - name: first_air_date
+        description: "Provides the first date of first season"
+        tests:
+          - not_null
+          - datetime_check
+      - name: last_air_date
+        description: "Provides the last date of last season"
+        tests:
+          - not_null
+          - datetime_check 
+      - name: ID
+        tests:
+          - not_null
+          - unique
+      - name: NAME
+        tests:
+          - not_null    
+      - name: IN_PRODUCTION
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['TRUE']   
+      - name: NUMBER_OF_EPISODES
+        tests:
+          - not_null                         
+      - name: NUMBER_OF_SEASONS
+        tests:
+          - not_null        
+  - name: append_model
+    description: "Implementing DBT append strategy"
+    columns:
+      - name: NUMBER_OF_SEASONS
+        description: "This column provides the number of seasons of a show"
+        tests:
+          - not_null     

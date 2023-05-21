@@ -1,0 +1,502 @@
+{
+  "cov_type": "test",
+  "covered": 10,
+  "total": 69,
+  "coverage": 0.14492753623188406,
+  "tables": [
+    {
+      "name": "dbt_km_schema.country_mapping",
+      "covered": 0,
+      "total": 2,
+      "coverage": 0.0,
+      "columns": [
+        {
+          "name": "country_code",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "country_name",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        }
+      ]
+    },
+    {
+      "name": "dbt_km_schema.hooks_merger",
+      "covered": 0,
+      "total": 9,
+      "coverage": 0.0,
+      "columns": [
+        {
+          "name": "id",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "name",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "in_production",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "number_of_episodes",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "number_of_seasons",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "first_air_date",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "last_air_date",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "episode_length",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "insert_ts",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        }
+      ]
+    },
+    {
+      "name": "dbt_km_schema.append_model",
+      "covered": 1,
+      "total": 9,
+      "coverage": 0.1111111111111111,
+      "columns": [
+        {
+          "name": "id",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "name",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "in_production",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "number_of_episodes",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "number_of_seasons",
+          "covered": 1,
+          "total": 1,
+          "coverage": 1.0
+        },
+        {
+          "name": "first_air_date",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "last_air_date",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "episode_length",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "insert_ts",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        }
+      ]
+    },
+    {
+      "name": "dbt_km_schema.date_difference",
+      "covered": 0,
+      "total": 5,
+      "coverage": 0.0,
+      "columns": [
+        {
+          "name": "id",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "name",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "start_date",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "end_date",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "total_air_days",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        }
+      ]
+    },
+    {
+      "name": "dbt_km_schema.tv_series_shows",
+      "covered": 0,
+      "total": 21,
+      "coverage": 0.0,
+      "columns": [
+        {
+          "name": "_id",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "created_by",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "first_air_date",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "genres",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "id",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "in_production",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "last_air_date",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "name",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "number_of_episodes",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "number_of_seasons",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "origin_country",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "original_language",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "original_name",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "overview",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "popularity",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "poster_path",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "production_companies",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "status",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "tagline",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "vote_average",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "vote_count",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        }
+      ]
+    },
+    {
+      "name": "dbt_km_schema.my_first_dbt_model",
+      "covered": 1,
+      "total": 1,
+      "coverage": 1.0,
+      "columns": [
+        {
+          "name": "id",
+          "covered": 1,
+          "total": 1,
+          "coverage": 1.0
+        }
+      ]
+    },
+    {
+      "name": "dbt_km_schema.countries_data_seed",
+      "covered": 0,
+      "total": 3,
+      "coverage": 0.0,
+      "columns": [
+        {
+          "name": "id",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "country_code",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "country_name",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        }
+      ]
+    },
+    {
+      "name": "dbt_km_schema.my_second_dbt_model",
+      "covered": 1,
+      "total": 1,
+      "coverage": 1.0,
+      "columns": [
+        {
+          "name": "id",
+          "covered": 1,
+          "total": 1,
+          "coverage": 1.0
+        }
+      ]
+    },
+    {
+      "name": "dbt_km_schema.merge_model",
+      "covered": 7,
+      "total": 9,
+      "coverage": 0.7777777777777778,
+      "columns": [
+        {
+          "name": "id",
+          "covered": 1,
+          "total": 1,
+          "coverage": 1.0
+        },
+        {
+          "name": "name",
+          "covered": 1,
+          "total": 1,
+          "coverage": 1.0
+        },
+        {
+          "name": "in_production",
+          "covered": 1,
+          "total": 1,
+          "coverage": 1.0
+        },
+        {
+          "name": "number_of_episodes",
+          "covered": 1,
+          "total": 1,
+          "coverage": 1.0
+        },
+        {
+          "name": "number_of_seasons",
+          "covered": 1,
+          "total": 1,
+          "coverage": 1.0
+        },
+        {
+          "name": "first_air_date",
+          "covered": 1,
+          "total": 1,
+          "coverage": 1.0
+        },
+        {
+          "name": "last_air_date",
+          "covered": 1,
+          "total": 1,
+          "coverage": 1.0
+        },
+        {
+          "name": "episode_length",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "insert_ts",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        }
+      ]
+    },
+    {
+      "name": "dbt_km_schema.tv_series",
+      "covered": 0,
+      "total": 9,
+      "coverage": 0.0,
+      "columns": [
+        {
+          "name": "id",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "name",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "in_production",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "number_of_episodes",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "number_of_seasons",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "first_air_date",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "last_air_date",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "episode_length",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        },
+        {
+          "name": "insert_ts",
+          "covered": 0,
+          "total": 1,
+          "coverage": 0.0
+        }
+      ]
+    }
+  ]
+}
